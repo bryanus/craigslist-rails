@@ -1,0 +1,5 @@
+<%= form_for @listing, :url => { :action => "create"}  do |f| %>
+<%= f.text_field :title %>
+<%= f.text_area :description, :size => "50x12" %>
+<%= f.submit "Create a listing" %>
+<% end %>
